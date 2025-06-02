@@ -15,3 +15,13 @@ musicalStructure:
   totalDurationSeconds: 207.10
   totalBars: 138
   visualLeadTimeSeconds: 0.2
+
+measureHighlighters:
+  line-breaks:
+    name: "Structure"  # Display name for UI
+    type: conditional
+    colors: [gainsboro, whitesmoke]
+    opacity: 0.3
+    condition:
+      type: line-starts
+      bars: [1, 3, 7, 9, 17, 29, 33, 39, 43, 67, 79, 83, 90, 93, 99, 102, 109, 113, 119, 123, 130, 138]
