@@ -1,0 +1,12 @@
+__pycache__/
+.build_cache.json
+*.csv
+*.log
+*.mid
+*.midi
+*.ps
+*.zip
+*~
+/*.pdf
+/*.svg
+svgo_incremental_*/
