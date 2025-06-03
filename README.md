@@ -1,6 +1,6 @@
 # BWV 1006
 
-![bwv1006](exports/bwv1006_svg_no_hrefs_in_tabs_swellable_optimized.svg)
+![bwv1006](exports/bwv1006_optimized.svg)
 
 ## 🎼 Project Overview
 
