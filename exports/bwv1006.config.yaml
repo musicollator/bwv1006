@@ -9,7 +9,7 @@ workInfo:
 files:
   svgPath: "bwv1006_optimized.svg"
   notesPath: "bwv1006_json_notes.json"
-  audioPath: "bwv1006202505211530.wav"
+  audioPath: "bwv1006202505211530.mp3"
   
 musicalStructure:
   totalDurationSeconds: 207.10
