@@ -20,7 +20,7 @@ measureHighlighters:
   line-breaks:
     name: "Start of Group"  # Display name for UI
     type: conditional
-    colors: [gainsboro, whitesmoke]
+    colors: ["#d4c4a8", "#ede6d8"]
     opacity: 1
     condition:
       type: line-starts
