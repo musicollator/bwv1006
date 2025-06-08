@@ -20,7 +20,7 @@ measureHighlighters:
   line-breaks:
     name: "Start of Group"  # Display name for UI
     type: conditional
-    colors: ["#d4c4a8", "#ede6d8"]
+    colors: ["#e0d2bf", "#f2ede4"]
     opacity: 1
     condition:
       type: line-starts
