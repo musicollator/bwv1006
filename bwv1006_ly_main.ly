@@ -151,7 +151,7 @@ bwvOneThousandSixScore = {
         \clef "treble_8"
         \keySignature
         \timeSignature
-        \tempoMarking
+        %% \tempoMarking
         \guitarPart
       }
       \new TabStaff {
