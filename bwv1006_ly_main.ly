@@ -122,7 +122,7 @@ bwvOneThousandSixScoreNoTabs = {
       \clef "treble_8"
       \keySignature
       \timeSignature
-      \tempoMarking
+      %% \tempoMarking
       \guitarPart
     >>
     \new Staff = "Bass" <<
