@@ -12,7 +12,7 @@ files:
 musicalStructure:
   totalDurationSeconds: 207.10
   totalMeasures: 138
-  visualLeadTimeSeconds: 0.1
+  visualLeadTimeSeconds: 0
 
 measureHighlighters:
   line-breaks:
