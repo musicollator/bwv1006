@@ -6,7 +6,6 @@
   tagline = ##f
 }
 
-
 % Define the key and time signature
 keySignature = { \key e \major }
 timeSignature = { \time 3/4 }
@@ -140,7 +139,7 @@ bwvOneThousandSixScoreNoTabs = {
 }
 
 % Score setup
-bwvOneThousandSixScore = {
+bwv = {
   <<
     \new StaffGroup <<
       \new Staff {
