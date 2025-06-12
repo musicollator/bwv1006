@@ -5,7 +5,7 @@ meta:
   minMoment: 0
   maxMoment: 138
   musicStartSeconds: 0.0
-  tickToSecondRatio: 0.0013027123590982287
+  tickToSecondRatio: 0.001301454307568438
   channels:
     1:
       minPitch: 40
