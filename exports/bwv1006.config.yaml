@@ -8,7 +8,7 @@ workInfo:
 
 files:
   syncPath: "bwv1006_audio_sync_final.yaml"
-  audioPath: "TASCAM_0122_fixed_mastered_cropped.mp3"
+  audioPath: "TASCAM_0122_fixed_mastered_cropped_2.mp3"
   
 musicalStructure:
   totalDurationSeconds: 268.30
