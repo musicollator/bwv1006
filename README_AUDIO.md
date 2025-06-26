@@ -12,6 +12,6 @@ python ../bwv-zeug/audio/fermata_chopper.py \
 
 python ../bwv-zeug/audio/add_clicks.py segments/ --clean
 python ../bwv-zeug/python/sync_with_audio.py bwv1006_note_heads.csv exports/bwv1006.yaml detected_beats_reworked.yaml  -c exports/bwv1006.config.yaml -o exports/bwv1006_audio_sync_final.yaml
-python ../bwv-zeug/audio/visualize_beats.py --audio-dir segments --beats-yaml detected_beats.yaml --yaml-timing exports/bwv1006_audio_sync_final.yaml
+python ../bwv-zeug/audio/visualize_beats.py --audio-dir segments --beats-yaml detected_beats_reworked.yaml --yaml-timing exports/bwv1006_audio_sync_final.yaml
 conda deactivate
 ```
