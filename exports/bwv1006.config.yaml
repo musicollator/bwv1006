@@ -11,7 +11,7 @@ files:
   audioPath: "TASCAM_0122_fixed_mastered_cropped.mp3"
   
 musicalStructure:
-  totalDurationSeconds: 271.25
+  totalDurationSeconds: 271.5
   totalMeasures: 138
   visualLeadTimeSeconds: 0.1
 
