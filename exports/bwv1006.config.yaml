@@ -7,10 +7,11 @@ workInfo:
   externalURL: "https://en.wikipedia.org/wiki/Partita_for_Violin_No._3_(Bach)"
 
 files:
-  audioPath: "bwv1006202505211530.mp3"
+  syncPath: "bwv1006_audio_sync_final.yaml"
+  audioPath: "TASCAM_0122_fixed_mastered_cropped.mp3"
   
 musicalStructure:
-  totalDurationSeconds: 206.88
+  totalDurationSeconds: 280.00
   totalMeasures: 138
   visualLeadTimeSeconds: 0.1
 
