@@ -111,8 +111,8 @@ bassPart = {
 }
 
 % Score setup
-bwvOneThousandSixScoreNoTabs = {
-  <<
+bwvOneThousandSixScoreNoTabs = %% {
+  %% <<
     \new Staff = "Guitar" <<
       \set Staff.midiInstrument = #"electric guitar (jazz)"
       \set Staff.midiMinimumVolume = #0.5  % Increase from default 0.2
@@ -124,24 +124,24 @@ bwvOneThousandSixScoreNoTabs = {
       %% \tempoMarking
       \guitarPart
     >>
-    \new Staff = "Bass" <<
-      \set Staff.midiTranspose = -12
-      \set Staff.midiInstrument = #"electric bass (finger)"
-      \set Staff.midiMinimumVolume = #0.5  % Increase from default 0.2
-      \set Staff.midiMaximumVolume = #0.8  % Max volume
-      \set Staff.midiChannel = #1
-      \clef "bass"
-      \keySignature
-      \timeSignature
-      \bassPart
-    >>
-  >>
-}
+  %%   \new Staff = "Bass" <<
+  %%     \set Staff.midiTranspose = -12
+  %%     \set Staff.midiInstrument = #"electric bass (finger)"
+  %%     \set Staff.midiMinimumVolume = #0.5  % Increase from default 0.2
+  %%     \set Staff.midiMaximumVolume = #0.8  % Max volume
+  %%     \set Staff.midiChannel = #1
+  %%     \clef "bass"
+  %%     \keySignature
+  %%     \timeSignature
+  %%     \bassPart
+  %%   >>
+  %% >>
+%% }
 
 % Score setup
-bwv = {
-  <<
-    \new StaffGroup <<
+bwv = %% {
+  %% <<
+  %%   \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = #"electric guitar (jazz)"
         \set Staff.midiMinimumVolume = #0.5  % Increase from default 0.2
@@ -153,23 +153,23 @@ bwv = {
         %% \tempoMarking
         \guitarPart
       }
-      \new TabStaff {
-        \clef "moderntab"
-        \guitarPart
-      }
-    >>
-    \new Staff = "Bass" <<
-      \set Staff.midiTranspose = -12
-      \set Staff.midiInstrument = #"electric bass (finger)"
-      \set Staff.midiMinimumVolume = #0.5  % Increase from default 0.2
-      \set Staff.midiMaximumVolume = #0.8  % Max volume
-      \set Staff.midiChannel = #1
-      \clef "bass"
-      \keySignature
-      \timeSignature
-      \bassPart
-    >>
-  >>
-}
+  %%     \new TabStaff {
+  %%       \clef "moderntab"
+  %%       \guitarPart
+  %%     }
+  %%   >>
+  %%   \new Staff = "Bass" <<
+  %%     \set Staff.midiTranspose = -12
+  %%     \set Staff.midiInstrument = #"electric bass (finger)"
+  %%     \set Staff.midiMinimumVolume = #0.5  % Increase from default 0.2
+  %%     \set Staff.midiMaximumVolume = #0.8  % Max volume
+  %%     \set Staff.midiChannel = #1
+  %%     \clef "bass"
+  %%     \keySignature
+  %%     \timeSignature
+  %%     \bassPart
+  %%   >>
+  %% >>
+%% }
 
 
