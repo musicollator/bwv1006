@@ -11,49 +11,6 @@ keySignature = { \key e \major }
 timeSignature = { \time 3/4 }
 tempoMarking = { \tempo 4=120 }
 
-% https://lsr.di.unimi.it/LSR/Item?id=952
-startModernBarre =
-#(define-event-function (fretnum)
-   (number?)
-   #{
-     \tweak bound-details.left.text
-     \markup
-     \small \bold \concat {
-       %\Prefix
-       #(format #f "~@r" fretnum)
-       \hspace #.2
-       \hspace #.5
-     }
-     \tweak font-size -1
-     \tweak font-shape #'upright
-     \tweak style #'dashed-line
-     \tweak dash-fraction #0.3
-     \tweak dash-period #1
-     \tweak bound-details.left.stencil-align-dir-y #0.35
-     \tweak bound-details.left.padding 0.25
-     \tweak bound-details.left.attach-dir -1
-     \tweak bound-details.left-broken.text ##f
-     \tweak bound-details.left-broken.attach-dir -1
-     %% adjust the numeric values to fit your needs:
-     \tweak bound-details.left-broken.padding 1.5
-     \tweak bound-details.right-broken.padding 0
-     \tweak bound-details.right.padding 0.25
-     \tweak bound-details.right.attach-dir 2
-     \tweak bound-details.right-broken.text ##f
-     \tweak bound-details.right.text
-     \markup
-     \with-dimensions #'(0 . 0) #'(-.3 . 0)
-     \draw-line #'(0 . -1)
-     \startTextSpan
-   #})
-
-stopBarre = \stopTextSpan
-
-P = #(define-music-function (parser location) () #{ \rightHandFinger #1 #})
-I = #(define-music-function (parser location) () #{ \rightHandFinger #2 #})
-M = #(define-music-function (parser location) () #{ \rightHandFinger #3 #})
-A = #(define-music-function (parser location) () #{ \rightHandFinger #4 #})
-
 % Include all parts
 \include "_1/m001_008.ly"
 \include "_1/m009_016.ly"
@@ -141,7 +98,7 @@ bwvOneThousandSixScoreNoTabs = %% {
 % Score setup
 bwv = %% {
   %% <<
-  %%   \new StaffGroup <<
+    \new StaffGroup <<
       \new Staff {
         \set Staff.midiInstrument = #"electric guitar (jazz)"
         \set Staff.midiMinimumVolume = #0.5  % Increase from default 0.2
@@ -153,11 +110,11 @@ bwv = %% {
         %% \tempoMarking
         \guitarPart
       }
-  %%     \new TabStaff {
-  %%       \clef "moderntab"
-  %%       \guitarPart
-  %%     }
-  %%   >>
+      \new TabStaff {
+        \clef "moderntab"
+        \guitarPart
+      }
+    >>
   %%   \new Staff = "Bass" <<
   %%     \set Staff.midiTranspose = -12
   %%     \set Staff.midiInstrument = #"electric bass (finger)"
