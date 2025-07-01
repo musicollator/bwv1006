@@ -14,7 +14,7 @@ tempoMarking = { \tempo 4=120 }
 % Include all parts
 \include "_1/m001_008.ly"
 \include "_1/m009_016.ly"
-\include "_1/m017_028.ly" % _alternate
+\include "_1/m017_028_alternate.ly" % 
 \include "_1/m029_042.ly"
 \include "_1/m043_050.ly"
 \include "_1/m051_058.ly"
